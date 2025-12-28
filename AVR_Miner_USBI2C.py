@@ -895,7 +895,7 @@ def share_print(id, type, accept, reject, total_hashrate,
     with thread_lock():
         printlock.acquire()
         print(Fore.WHITE + datetime.now().strftime(Style.DIM + "%H:%M:%S ")
-              + Fore.WHITE + Style.BRIGHT + Back.MAGENTA + Fore.RESET
+              + Fore.WHITE + Style.BRIGHT + Back.BLUE + Fore.RESET
               + " avr" + str(id) + " " + Back.RESET
               + fg_color + Settings.PICK + share_str + Fore.RESET
               + str(accept) + "/" + str(accept + reject) + Fore.MAGENTA
