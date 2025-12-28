@@ -843,7 +843,7 @@ def pretty_print(sender: str = "sys0",
     if sender.startswith("net"):
         bg_color = Back.BLUE
     elif sender.startswith("avr"):
-        bg_color = Back.MAGENTA
+        bg_color = Back.GREEN
     else:
         bg_color = Back.GREEN
 
