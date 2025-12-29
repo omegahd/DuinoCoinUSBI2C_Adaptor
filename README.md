@@ -1,3 +1,7 @@
+Fork of the original https://github.com/JK-Rolling/DuinoCoinUSBI2C_Adaptor
+
+For 1MhZ I2C, 2.2kOhm or lower pullup ressistors readed on SDA and SCL lines
+
 # DuinoCoinUSBI2C_Adaptor
 This project is designed to allow computer without I2C interface to mine [Duino-Coin](https://github.com/revoxhere/duino-coin) on I2C miner. The adaptor is suitable for most AVR/ESP with USB-Serial chip onboard.
 
